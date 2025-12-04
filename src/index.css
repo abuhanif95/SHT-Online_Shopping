@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #f33f33;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -14,8 +18,6 @@ header .top-strip {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-@layer base {
-  :root {
-    --color-primary: #f33f33;
-  }
+.link:hover {
+  color: #f33f33;
 }
