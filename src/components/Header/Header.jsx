@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/SHTlogo.png";
 import Search from "../Search/Search";
 
 const Header = () => {
@@ -53,7 +53,7 @@ const Header = () => {
               <img
                 src={logo}
                 alt="Mega Platform"
-                className="h-20 w-20" // 2rem = 32px
+                className="w-full" // 2rem = 32px
               />
             </Link>
           </div>
