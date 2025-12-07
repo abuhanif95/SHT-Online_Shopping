@@ -1,14 +1,11 @@
 @import "tailwindcss";
-
 @theme {
   --color-primary: #f33f33;
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
+* {
   box-sizing: border-box;
-} */
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -26,4 +23,8 @@ header .top-strip {
 
 .link:hover {
   color: #f33f33;
+}
+
+.MuiBadge-badge {
+  background-color: #f33f33 !important;
 }
