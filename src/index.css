@@ -9,10 +9,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+  color: rgba(0, 0, 0, 0.778);
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -27,4 +29,12 @@ header .top-strip {
 
 .MuiBadge-badge {
   background-color: #f33f33 !important;
+}
+
+nav ul button {
+  text-transform: capitalize !important;
+}
+
+nav ul button .MuiTouchRipple-root {
+  background-color: none !important;
 }

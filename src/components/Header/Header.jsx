@@ -9,6 +9,7 @@ import Tooltip from "@mui/material/Tooltip";
 import { IoIosGitCompare } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import Navigation from "./Navigation/Navigation";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -23,7 +24,7 @@ const Header = () => {
   return (
     <header>
       {/* Top-strip Header */}
-      <div className="top-strip py-2 border-t border-b border-gray-200">
+      <div className="top-strip py-3 border-t border-b border-gray-300">
         <div className="container">
           <div className="flex item-center justify-between">
             <div className="col1 w-[50%]">
@@ -62,7 +63,7 @@ const Header = () => {
       </div>
 
       {/* Bottom-strip Header */}
-      <div className="header py-2">
+      <div className="header py-1 border-b border-gray-300 ">
         <div className="container flex items-center justify-between">
           {/* Logo Section */}
           <div className="col1 w-[25%]">
@@ -70,7 +71,7 @@ const Header = () => {
               <img
                 src={logo}
                 alt="Mega Platform"
-                className="w-full" // 2rem = 32px
+                className="h-20" // 2rem = 32px
               />
             </Link>
           </div>
@@ -161,6 +162,9 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      {/* Navigation Section */}
+      <Navigation />
     </header>
   );
 };
